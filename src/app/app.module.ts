@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
 import { FormsModule } from '@angular/forms';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 // Every component must be declared in exactly one NgModule.
 // You didn't declare the HeroesComponent. So why did the application work?
@@ -12,7 +13,8 @@ import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
-    HeroesComponent
+    HeroesComponent,
+    HeroDetailComponent
   ],
   imports: [
     BrowserModule,
